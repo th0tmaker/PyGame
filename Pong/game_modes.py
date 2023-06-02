@@ -26,8 +26,8 @@ def two_player_mode():
 def reset_game():
     ball.round_reset(ball.left_paddle_score, ball.right_paddle_score, paddle_list)  # Reset round parameters
 
-    ball.left_paddle_score = 0  # Reset left paddle scoree
-    ball.right_paddle_score = 0  # Reset right paddle scoree
+    ball.left_paddle_score = 0  # Reset left paddle score
+    ball.right_paddle_score = 0  # Reset right paddle score
 
     # Update left paddle x, y coordinates and rect position
     left_paddle.x, left_paddle.y = 20, (WINDOW_SIZE[1] // 2 - PADDLE_SIZE[1] // 2)  # coordinates
