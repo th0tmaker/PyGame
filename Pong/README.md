@@ -84,7 +84,7 @@ you want to copy.
 
 ## Gameplay:
 
-The current implementation of the game has only on available game mode, which is called 'Two Player Mode'.
+The current implementation of the game only has one single available game mode, which is called 'Two Player Mode'.
 In 'Two Player Mode', you can engage in a head-to-head match against yourself or another player.
 In the menu, select 'New Game' to access this mode. The desired duration or point limit for the game are decided
 by the players.
