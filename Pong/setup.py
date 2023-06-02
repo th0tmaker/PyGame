@@ -15,7 +15,7 @@ def access_window():
     # Create window display, caption & icon
     window_ = pg.display.set_mode(WINDOW_SIZE)
     pg.display.set_caption("Pong | by Ilija")
-    pg.display.set_icon(pg.image.load("C:/Users/krasn/PycharmProjects/My_Projects/PyGame/Pong/icon/pong.ico"))
+    pg.display.set_icon(pg.image.load("Pong/icon/pong.ico"))
 
     return window_  # return window
 
