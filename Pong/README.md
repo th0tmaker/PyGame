@@ -99,7 +99,7 @@ If you pause after the countdown timer phase, the game will pause while preservi
 
 **Menu:**
 
-*Mouse*
+*Mouse:*
 * Navigate Menu - Move mouse...
 * Confirm Selection - <kbd>Left Mouse Click</kbd>
 
