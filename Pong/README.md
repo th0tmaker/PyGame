@@ -57,7 +57,7 @@ symbolizing the early days of video gaming and serving as a touchstone for game 
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Type 'git clone', and then paste the URL that you copied in Step 2.
 
-   ```$ git clone https://github.com/th0tmaker/PyGame/Pong.git```
+   ```$ git clone [.] https://github.com/th0tmaker/PyGame/tree/master/Pong.git```
    
 8. Press Enter. Your local clone will be created for [Pong](https://github.com/th0tmaker/PyGame/tree/master/Pong).
 9. Run `__main__.py` in Python.
