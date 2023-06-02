@@ -4,16 +4,13 @@ from setup import pg, setup_mixer
 setup_mixer()  # initialize pygame mixer module to access pg.mixer.Sound()
 
 # music (paths)
-menu_music = "C:/Users/krasn/PycharmProjects/My_Projects/PyGame/Pong/sound/menu_theme.wav"
-game_music = "C:/Users/krasn/PycharmProjects/My_Projects/PyGame/Pong/sound/game_theme.wav"
+menu_music = "Pong/sound/menu_theme.wav"
+game_music = "Pong/sound/game_theme.wav"
 
 # sound effects
-countdown321_sfx = pg.mixer.Sound(
-    "C:/Users/krasn/PycharmProjects/My_Projects/PyGame/Pong/sound/countdown_sfx.ogg")
-paddle_strike_sfx = pg.mixer.Sound(
-    "C:/Users/krasn/PycharmProjects/My_Projects/PyGame/Pong/sound/paddle_strike_sfx.ogg")
-point_scored_sfx = pg.mixer.Sound(
-    "C:/Users/krasn/PycharmProjects/My_Projects/PyGame/Pong/sound/point_scored_sfx.ogg")
+countdown321_sfx = pg.mixer.Sound("Pong/sound/countdown_sfx.ogg")
+paddle_strike_sfx = pg.mixer.Sound("Pong/sound/paddle_strike_sfx.ogg")
+point_scored_sfx = pg.mixer.Sound("Pong/sound/point_scored_sfx.ogg")
 
 
 def play_menu_music():
