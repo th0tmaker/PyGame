@@ -65,7 +65,7 @@ symbolizing the early days of video gaming and serving as a touchstone for game 
 **Download ZIP**:
 
 1. You must have [Python](https://www.python.org/downloads/) and [PyGame](https://www.pygame.org/news).
-2. On GitHub, go to the main page of the [repositpry](https://github.com/th0tmaker/PyGame/tree/master/Pong)
+2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame/tree/master/Pong)
 3. Under the name of the repository, click Code -> Download.
 4. Extract the contents of the ZIP file to a desired location on your device.
 5. Navigate to the extracted directory using the command prompt or terminal.
