@@ -38,7 +38,7 @@ class Ball:
 
         self.paddle_collisions = 0  # initialize counter to track every time ball collides w/ a paddle
         self.last_time_collided = 0  # initialize flag to track time at which last collision occured
-        self.y_velocity_cap = 4  # maximum speed at the ball can travel in its y direction
+        self.y_velocity_cap = 4  # maximum speed cap the ball can travel in its y direction
 
         self.round_start_time = 0  # initialize flag to track when the round has started
         self.round_start_timer_duration = 10000  # Countdown timer duration is 10000ms (10 sec)
