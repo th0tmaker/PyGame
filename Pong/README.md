@@ -50,22 +50,22 @@ symbolizing the early days of video gaming and serving as a touchstone for game 
 
 1. You must have [Git](https://git-scm.com/downloads) installed on your device and also
 [Python](https://www.python.org/downloads/) and [PyGame](https://www.pygame.org/news).
-2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame/tree/master/Pong).
+2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame).
 3. Under the name of the repository, click Clone.
 4. In the Clone with HTTPs section, click to copy the repository cloning URL.
 5. Open Git Bash.
 6. Change the current working directory to the location where you want the cloned directory to be made.
 7. Type 'git clone', and then paste the URL that you copied in Step 2.
 
-   ```$ git clone [.] https://github.com/th0tmaker/PyGame/tree/master/Pong.git```
+   ```$ git clone [.] https://github.com/th0tmaker/PyGame.git```
    
-8. Press Enter. Your local clone will be created for [Pong](https://github.com/th0tmaker/PyGame/tree/master/Pong).
+8. Press Enter. Your local clone will be created for [Pygame](https://github.com/th0tmaker/PyGame).
 9. Run `__main__.py` in Python.
 
 **Download ZIP**:
 
 1. You must have [Python](https://www.python.org/downloads/) and [PyGame](https://www.pygame.org/news).
-2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame/tree/master/Pong)
+2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame)
 3. Under the name of the repository, click Code -> Download.
 4. Extract the contents of the ZIP file to a desired location on your device.
 5. Navigate to the extracted directory using the command prompt or terminal.
