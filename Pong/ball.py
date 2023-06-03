@@ -203,7 +203,7 @@ class Ball:
                     self.last_time_collided = current_time  # update the last collision time
                     play_paddle_strike_sound()  # play paddle strike sound effect
 
-                # Every 10 paddle collisions, increase ball x velocity add a scaling difficulty to the gameplay
+                # Every 10 paddle collisions, increase ball x velocity to add a scaling difficulty to the gameplay
                 if self.paddle_collisions % 10 == 0:
                     # calculate new x velocity value with sign preservation
                     delta_velocity = 1 * (1 if self.velocity_x > 0 else -1)
