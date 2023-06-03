@@ -111,7 +111,7 @@ class Ball:
         self.y = WINDOW_SIZE[1] // 2  # reset ball.y position at the middle of the window
         self.rect.center = (self.x, self.y)  # reset ball rect center to x and y coordinates
         self.paddle_collisions = 0  # reset counter for every time ball collides w/ a paddle
-        self.velocity_x = 3  # reset ball x velocity to inital state (currently set: 0.3)
+        self.velocity_x = 3  # reset ball x velocity to inital state (currently set: 3)
         self.velocity_y = random.choice(
             (0.01, -0.01))  # reset ball y velocity to initial state but randomize trajectory
         self.ball_active = False  # set ball active as False
