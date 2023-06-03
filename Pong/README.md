@@ -74,8 +74,7 @@ symbolizing the early days of video gaming and serving as a touchstone for game 
 **Copy/Paste code**:
 
 1. You must have [Python](https://www.python.org/downloads/) and [PyGame](https://www.pygame.org/news).
-2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame/tree/master/Pong) and click on the file.
-you want to copy.
+2. On GitHub, go to the main page of the [repository](https://github.com/th0tmaker/PyGame/tree/master/Pong) and click on the file you want to copy.
 3. Once the file is open, click on the "Raw" button. This will display the raw text of the file.
 4. Select all the code in the raw view and copy it.
 5. Open a text editor or an Integrated Development Environment (IDE) on your local machine.
@@ -84,9 +83,9 @@ you want to copy.
 
 ## Gameplay:
 
-The current implementation of the game only has one single available game mode, which is called 'Two Player Mode'.
+The current implementation of the game only has a single available game mode called 'Two Player Mode'.
 In 'Two Player Mode', you can engage in a head-to-head match against yourself or another player.
-In the menu, select 'New Game' to access this mode. The desired duration or point limit for the game are decided
+In the menu, select 'New Game' to access this mode. The desired duration or point limit of the game are decided
 by the players.
 
 Before each round starts, a 10-second countdown timer initiates to give players ample time to prepare.
