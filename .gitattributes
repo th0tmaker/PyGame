@@ -1,2 +1,0 @@
-Pong/ filter=lfs diff=lfs merge=lfs -text
-Pong/sound/game_theme.wav filter=lfs diff=lfs merge=lfs -text
