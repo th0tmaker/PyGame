@@ -38,7 +38,7 @@ class Ball:
 
         self.paddle_collisions = 0  # initialize counter to track every time ball collides w/ a paddle
         self.last_time_collided = 0  # initialize flag to track time at which last collision occured
-        self.y_velocity_cap = 4  # maximum speed at the ball can travel in its y direction
+        self.y_velocity_cap = 4  # maximum speed cap the ball can travel in its y direction
 
         self.round_start_time = 0  # initialize flag to track when the round has started
         self.round_start_timer_duration = 10000  # Countdown timer duration is 10000ms (10 sec)
@@ -111,13 +111,13 @@ class Ball:
         self.y = WINDOW_SIZE[1] // 2  # reset ball.y position at the middle of the window
         self.rect.center = (self.x, self.y)  # reset ball rect center to x and y coordinates
         self.paddle_collisions = 0  # reset counter for every time ball collides w/ a paddle
-        self.velocity_x = 3  # reset ball x velocity to inital state (currently set: 0.3)
+        self.velocity_x = 3  # reset ball x velocity to inital state (currently set as: 3)
         self.velocity_y = random.choice(
             (0.01, -0.01))  # reset ball y velocity to initial state but randomize trajectory
         self.ball_active = False  # set ball active as False
 
         for paddle in paddles:
-            paddle.velocity = 600  # set paddle vertical velocity of to initial state (currently set: 600)
+            paddle.velocity = 600  # set paddle vertical velocity to initial state (currently set: 600)
 
         # Determine ball direction at the start of the round
         if left_paddle_score == 0 and right_paddle_score == 0:
@@ -203,7 +203,7 @@ class Ball:
                     self.last_time_collided = current_time  # update the last collision time
                     play_paddle_strike_sound()  # play paddle strike sound effect
 
-                # Every 10 paddle collisions, increase ball x velocity add a scaling difficulty to the gameplay
+                # Every 10 paddle collisions, increase ball x velocity to add a scaling difficulty to the gameplay
                 if self.paddle_collisions % 10 == 0:
                     # calculate new x velocity value with sign preservation
                     delta_velocity = 1 * (1 if self.velocity_x > 0 else -1)

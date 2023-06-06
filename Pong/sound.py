@@ -11,20 +11,22 @@ game_music = "sound/game_theme.mp3"
 countdown321_sfx = pg.mixer.Sound("sound/countdown_sfx.ogg")
 paddle_strike_sfx = pg.mixer.Sound("sound/paddle_strike_sfx.ogg")
 point_scored_sfx = pg.mixer.Sound("sound/point_scored_sfx.ogg")
+menu_select_sfx = pg.mixer.Sound("sound/menu_select_sfx.ogg")
+menu_confirm_sfx = pg.mixer.Sound("sound/menu_confirm_sfx.ogg")
 
 
 def play_menu_music():
     # Play menu theme music
     pg.mixer.music.load(menu_music)
     pg.mixer.music.play(loops=-1)
-    pg.mixer.music.set_volume(0.5)
+    pg.mixer.music.set_volume(0.4)
 
 
 def play_game_music():
     # Play in game theme music
     pg.mixer.music.load(game_music)
     pg.mixer.music.play(loops=-1)
-    pg.mixer.music.set_volume(0.2)
+    pg.mixer.music.set_volume(0.1)
 
 
 def play_countdown321_sound():
@@ -43,3 +45,15 @@ def play_paddle_strike_sound():
     # Play sound effect for when a paddles strikes the ball
     paddle_strike_sfx.play(maxtime=0)
     paddle_strike_sfx.set_volume(0.5)
+
+
+def play_menu_select_sound():
+    # Play sound effect for when a menu option is selected/highlighted
+    menu_select_sfx.play(maxtime=0)
+    menu_select_sfx.set_volume(0.5)
+
+
+def play_menu_confirm_sound():
+    # Play sound effect for when menu selection is confirmed
+    menu_confirm_sfx.play()
+    menu_confirm_sfx.set_volume(0.4)

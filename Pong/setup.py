@@ -29,6 +29,6 @@ def access_clock():
 clock = access_clock()  # create our clock to use in render_display()
 
 
-def render_display():
+def refresh_display():
     pg.display.flip()  # update/refresh display window
     clock.tick(FPS)  # set consistent display window framerate to avoid inconsistent gameplay speed/performance
