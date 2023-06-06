@@ -117,7 +117,7 @@ class Ball:
         self.ball_active = False  # set ball active as False
 
         for paddle in paddles:
-            paddle.velocity = 600  # set paddle vertical velocity to initial state (currently set: 600)
+            paddle.velocity = 600  # set paddle vertical velocity to initial state (currently set as: 600)
 
         # Determine ball direction at the start of the round
         if left_paddle_score == 0 and right_paddle_score == 0:
