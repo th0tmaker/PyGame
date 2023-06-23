@@ -26,7 +26,7 @@ def access_clock():
     return clock_  # return clock
 
 
-clock = access_clock()  # create our clock to use in render_display()
+clock = access_clock()  # create our clock to use in refresh_display()
 
 
 def refresh_display():
