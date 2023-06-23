@@ -6,10 +6,11 @@ pg.init()
 pg.mixer.init(frequency=44100, size=32, channels=2, buffer=512)  # initialize Pygame mixer for sound
 
 # Music (path)
-bg_music = "assets/sound/game_theme2.mp3"  # game background music
+bg_music = "assets/sound/ingame_music.mp3"  # game background music
+
 
 # Sound effects (paths)
-food_pickup_sfx = pg.mixer.Sound("assets/sound/food_pickup_sfx3.ogg")
+food_pickup_sfx = pg.mixer.Sound("assets/sound/food_pickup_sfx.ogg")
 crash_sfx = pg.mixer.Sound("assets/sound/crash_sfx.ogg")
 round_over_sfx = pg.mixer.Sound("assets/sound/game_over_sfx.ogg")
 
