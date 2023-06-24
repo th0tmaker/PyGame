@@ -87,7 +87,7 @@ class Game:
         self.window.blit(score_img, score_img_rect)
 
         score_surface = score_txt.render(str(score), True, BLACK)
-        score_rect = score_surface.get_rect(center=(WINDOW_SIZE[0] // 2 - 265, WINDOW_SIZE[1] // 2 - 274))
+        score_rect = score_surface.get_rect(center=(WINDOW_SIZE[0] // 2 - 255, WINDOW_SIZE[1] // 2 - 274))
         self.window.blit(score_surface, score_rect)
 
     def highscore(self):
@@ -98,7 +98,7 @@ class Game:
         self.window.blit(highscore_img, highscore_img_rect)
 
         highscore_surface = score_txt.render(str(self.high_score), True, BLACK)
-        highscore_rect = highscore_surface.get_rect(center=(WINDOW_SIZE[0] // 2 - 265, WINDOW_SIZE[1] // 2 - 239))
+        highscore_rect = highscore_surface.get_rect(center=(WINDOW_SIZE[0] // 2 - 255, WINDOW_SIZE[1] // 2 - 239))
         self.window.blit(highscore_surface, highscore_rect)
 
     def draw(self):
