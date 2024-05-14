@@ -5,7 +5,7 @@
 ![PyGame v2.4.0 Badge](badges/pypi_v2.4.0.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-<h1 align="center">PONG</h1>
+<h1 align="center">SNAKE</h1>
 
 <h4 align="center">Written by th0tmaker in Python using the PyGame library.</h4>
 
